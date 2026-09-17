@@ -1,0 +1,74 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "almond",
+  "name": "Kamil's Unblocked",
+  "colors": {
+    "primary": "#3498db",
+    "light": "#5dade2",
+    "dark": "#1a5276"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Guide",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "introduction",
+              "how-to-use",
+              "dark-mode-sidebar"
+            ]
+          },
+          {
+            "group": "Games",
+            "pages": [
+              "games/overview",
+              "games/featured-games",
+              "games/polytrack",
+              "games/all-games",
+              "games/more-games"
+            ]
+          },
+          {
+            "group": "Entertainment",
+            "pages": [
+              "entertainment/movies-shows",
+              "entertainment/music",
+              "entertainment/websites"
+            ]
+          },
+          {
+            "group": "Features",
+            "pages": [
+              "features/search",
+              "features/pinned-games",
+              "features/recently-played",
+              "features/xp-levels",
+              "features/disguise-mode"
+            ]
+          },
+          {
+            "group": "Help",
+            "pages": [
+              "help/faq",
+              "help/troubleshooting"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "navbar": {
+    "primary": {
+      "type": "github",
+      "href": "https://github.com/Kamilgamer1/unblocked"
+    }
+  },
+  "footer": {
+    "socials": {
+      "github": "https://github.com/Kamilgamer1"
+    }
+  }
+}

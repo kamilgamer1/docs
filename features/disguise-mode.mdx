@@ -1,0 +1,52 @@
+---
+title: "Disguise & Hide Site: Instant Tab Privacy Controls"
+sidebarTitle: "Disguise Mode"
+description: "Disguise Site changes your tab title and favicon to look like another page. Hide Site overlays a full-screen decoy on Kamil's Unblocked."
+---
+
+The **Disguise Site** and **Hide Site** features let you quickly change the appearance of your browser tab or overlay a decoy page over the entire screen — useful whenever you need a moment of privacy without closing the site.
+
+## Disguise Site
+
+Disguise Site changes your browser tab's title and favicon so the tab looks like a completely different website to anyone glancing at your screen.
+
+1. Click the **Disguise Site** button in the right-side search sidebar on the All Games page.
+2. The tab title immediately changes to the configured disguise name — by default **ParentVUE**.
+3. The tab favicon updates to match — by default the **ParentVUE** school portal icon.
+
+You can customize both values in ⚙️ Settings — see [Customizing Settings](#customizing-settings) below.
+
+## Hide Site
+
+Hide Site overlays a full-screen decoy page on top of the entire site, making it appear as though you've navigated away entirely.
+
+1. Click the **Hide Site** button in the right-side search sidebar on the All Games page.
+2. A full-screen iframe loads the configured decoy URL — by default the **ParentVUE login page** (`va-wjccp-psv.edupoint.com`).
+3. To dismiss the overlay and return to the site, **click anywhere** on the decoy page.
+
+The decoy URL is also customizable in ⚙️ Settings.
+
+## Customizing Settings
+
+You can personalize both Disguise Site and Hide Site to use any title, favicon, or URL you prefer.
+
+<Steps>
+  <Step title="Open Settings">
+    Click the **⚙️** gear icon in the All Games page header to open the Settings panel.
+  </Step>
+  <Step title="Fill in your values">
+    Update any of the following fields:
+    - **Disguise Title** — the tab title shown when Disguise Site is active
+    - **Disguise Favicon URL** — a direct image URL for the tab favicon shown when Disguise Site is active
+    - **Hide Site URL** — the page that loads in the full-screen iframe when Hide Site is active
+  </Step>
+  <Step title="Save your settings">
+    Click **Save** — your settings are stored in browser local storage (`astro_settings`) and persist across sessions.
+  </Step>
+</Steps>
+
+Click **Reset to Default** at any time to restore all three values back to the ParentVUE defaults.
+
+<Warning>
+  Disguise Site and Hide Site change only the visual appearance of your browser tab — they do not change the actual URL in the address bar or affect any network traffic. Someone checking your browser history or network logs will still see the real site address.
+</Warning>

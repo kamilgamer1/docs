@@ -1,0 +1,92 @@
+{
+  "projectType": "saas",
+  "projectName": "Kamil's Unblocked",
+  "projectDescription": "A browser-based unblocked entertainment hub featuring hundreds of games, movies, music, and websites accessible from any network.",
+  "theme": "almond",
+  "primaryColor": "#3498db",
+  "lightColor": "#5dade2",
+  "darkColor": "#1a5276",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Guide",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "introduction",
+              "how-to-use",
+              "dark-mode-sidebar"
+            ]
+          },
+          {
+            "group": "Games",
+            "pages": [
+              "games/overview",
+              "games/featured-games",
+              "games/polytrack",
+              "games/all-games",
+              "games/more-games"
+            ]
+          },
+          {
+            "group": "Entertainment",
+            "pages": [
+              "entertainment/movies-shows",
+              "entertainment/music",
+              "entertainment/websites"
+            ]
+          },
+          {
+            "group": "Features",
+            "pages": [
+              "features/search",
+              "features/pinned-games",
+              "features/recently-played",
+              "features/xp-levels",
+              "features/disguise-mode"
+            ]
+          },
+          {
+            "group": "Help",
+            "pages": [
+              "help/faq",
+              "help/troubleshooting"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Hundreds of unblocked browser games playable without installation",
+    "Featured games including 3Dash, Slope, Polytrack, and Roblox",
+    "All-games library with alphabetical search and filtering",
+    "XP & leveling system that rewards play time with avatar unlocks",
+    "Pin up to 3 favorite games for quick access",
+    "Recently played history tracking",
+    "Disguise Site mode to change the tab title and favicon",
+    "Hide Site mode to overlay a decoy webpage",
+    "Dark mode with persistent localStorage preference",
+    "Collapsible sidebar with live clock widget",
+    "Movies & shows streaming section",
+    "Music player with NF tracks",
+    "Curated unblocked websites directory"
+  ],
+  "publicApiSurface": [
+    "games/games.html — main games hub with grid of featured games",
+    "games/more-games.html — full all-games library with XP, pinning, recently-played, search",
+    "games/3dash.html — embedded 3Dash (Unity WebGL)",
+    "games/polytrack — Polytrack racing game (to be added as local .html)",
+    "movies-shows/movies-shows.html — movies and TV shows section",
+    "music/music.html — NF music player",
+    "websites/websites.html — unblocked websites directory",
+    "about-us/about-us.html — about page",
+    "localStorage: darkMode — persists dark/light theme",
+    "localStorage: sidebarClosed — persists sidebar open/close state",
+    "localStorage: astro_level / astro_xp — persists XP and level",
+    "localStorage: astro_pinned — persists pinned games (max 3)",
+    "localStorage: astro_recent — persists recently played games (last 5)",
+    "localStorage: astro_settings — disguise title, favicon, hide URL"
+  ]
+}

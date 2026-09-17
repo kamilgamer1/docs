@@ -1,0 +1,37 @@
+---
+title: "Dark Mode and Sidebar Controls on Kamil's Unblocked"
+sidebarTitle: "Display Settings"
+description: "Control dark mode and sidebar visibility on Kamil's Unblocked — both preferences save to your browser so the site always opens exactly the way you left it."
+---
+
+Kamil's Unblocked gives you two UI controls to customize how the site looks and how much of the screen your content uses: a **dark mode toggle** and a **sidebar toggle**. Both are accessible from the main layout at all times, and both save their state automatically so you never have to set them more than once.
+
+## Dark Mode
+
+A **🌙** button sits in the **top-right corner** of every page. Click it once to switch the site from its default light theme to a dark color scheme — dark backgrounds, lighter text, and adjusted button colors that are easier on your eyes in low-light environments. Click it again to return to light mode.
+
+Your dark mode choice is written to your browser's local storage the moment you toggle it (under the key `darkMode`). The next time you open the site, it loads in whichever mode you last selected — no extra steps required.
+
+## Sidebar
+
+The **☰** (hamburger) button in the **top-left corner** shows and hides the navigation sidebar. When the sidebar is visible, you can click any section link — Home, Games, Movies / Shows, Websites, Music, About Us, or GitHub — to navigate instantly. When it's hidden, the sidebar slides off-screen to the left, giving your content the full browser width.
+
+Just like dark mode, the sidebar's open or closed state is saved to local storage automatically (under the key `sidebarClosed`). If you closed the sidebar last time, it opens in the closed state on your next visit.
+
+## Live Clock
+
+The sidebar includes a built-in **live clock widget** at the bottom of the navigation list. It detects your local timezone automatically using your browser and displays:
+
+- **Your location** (derived from your timezone — for example, "America/New\_York" is shown as "New York")
+- **The current time** updated every second in 12-hour format
+- **Today's date** shown as a short day/month/date string
+
+The clock requires no setup and works entirely in your browser — no location permissions or external requests needed.
+
+<Info>
+  Both dark mode and sidebar state are stored in your browser's **local storage**. No account, cookie consent, or server-side profile is involved — everything stays on your device.
+</Info>
+
+<Tip>
+  If you share a device with someone else and want to reset the display preferences to their defaults, open your browser's developer tools (F12 on most browsers), go to **Application → Local Storage**, and delete the `darkMode` and `sidebarClosed` keys. The site will revert to light mode with the sidebar open on the next load.
+</Tip>
